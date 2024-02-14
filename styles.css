@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #3ba13b; /* Cor verde de fundo */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+    color: #000000; /* Cor do texto */
+}
+
+#countdown {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+#linkContainer {
+    margin-top: 20px;
+}
+
+#accessLink {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ffffff; /* Cor do botão */
+    color: #00FF00; /* Cor do texto do botão */
+    text-decoration: none;
+    border-radius: 5px;
+}
